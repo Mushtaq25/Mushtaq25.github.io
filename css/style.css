@@ -9765,3 +9765,21 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    @media (max-width: 768px) {
+      body {
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      /* Adjust other heading sizes as needed */
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }

@@ -10,18 +10,7 @@ $darken: #232931;
 $primary: #b1b493;
 $secondary: #a0f669;
 
-@media (max-width: 768px) {
-	body {
-	  font-size: 14px;
-	}
-	h1 {
-	  font-size: 28px;
-	}
-	h2 {
-	  font-size: 24px;
-	}
-	/* Adjust other heading sizes as needed */
-  }
+
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
